@@ -271,7 +271,7 @@ To run your own checker node:
    ```
 ### Reputation Storage
 
-All reputation data is stored on Filecoin via Akave buckets:
+All reputation data in Akave buckets:
 
 ```typescript
 interface ReputationData {
@@ -310,7 +310,7 @@ interface ReputationData {
 
 ## Akave Storage Integration
 
-Franky utilizes Akave's storage infrastructure to provide reliable, decentralized storage on the Filecoin network. The system manages multiple specialized buckets for different types of data:
+Franky utilizes Akave's storage infrastructure to provide reliable, decentralized storage on the Akave network. The system manages multiple specialized buckets for different types of data:
 
 ### Storage Architecture
 
